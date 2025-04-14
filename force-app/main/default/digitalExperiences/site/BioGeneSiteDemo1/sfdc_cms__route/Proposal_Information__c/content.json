@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Proposal Information",
+  "contentBody" : {
+    "activeViewId" : "Proposal_Information",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-proposal-information",
+    "urlPrefix" : "proposal-information"
+  },
+  "urlName" : "proposal-information"
+}

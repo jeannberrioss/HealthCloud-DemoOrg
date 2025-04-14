@@ -1,0 +1,38 @@
+{
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "79a5481d-a568-465c-862b-44fc1a6a4a42",
+  "label" : "1 to 1 Messages",
+  "regions" : [ {
+    "id" : "196bd1cf-f69c-4134-b31b-51bda10d00f3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "75fd83bb-5441-4da2-8ba0-9495f99f86dd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ab2b0e21-5e6a-47ca-80a7-ffb156f9e967",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1 to 1 Messages"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c1cd490e-4a8e-4220-92cc-f57227a2c97f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "111406af-1f16-49d0-8bc1-9651eb0f13a7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-1-to-1-messages"
+}

@@ -1,0 +1,24 @@
+{
+  "forgotPasswordRouteId" : "7393f523-ea74-42bc-aab2-f5cc75d283dd",
+  "isAvailableToGuests" : true,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "d203eec7-1232-4163-93ee-85aa9dd14b23",
+  "mainAppPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "3a47f52c-9861-4a15-89b8-b277d179c6a2",
+  "trustedSitesForScript" : [ {
+    "id" : "9acd4bbe-c6ea-4eac-b26c-20fffbc0e171",
+    "isActive" : true,
+    "trustedSiteName" : "Ciberspring site",
+    "trustedSiteUrl" : "https://www.ciberspring.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "b4a3e5ca-981f-46b9-accf-f92cfe18bf09",
+    "isActive" : true,
+    "trustedSiteName" : "Ciberspring Images",
+    "trustedSiteUrl" : "https://www.ciberspring.com/wp-content/uploads/",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

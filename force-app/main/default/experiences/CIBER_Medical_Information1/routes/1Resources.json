@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "04ee0c6f-1201-4199-9862-14bcaae29934",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Resources__c",
+  "id" : "28faa236-cfb4-4499-98e9-77b6f53a198a",
+  "label" : "1Resources",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-resources",
+  "type" : "route",
+  "urlPrefix" : "resources"
+}

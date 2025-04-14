@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "1422e524-2d19-4f12-845c-c9d2dfa62837",
+  "appPageId" : "fae84a03-8ab7-4260-9216-6b46d574f82b",
+  "configurationTags" : [ ],
+  "devName" : "Inquiry_List",
+  "id" : "ff4cec56-632f-46b0-923c-318826669476",
+  "label" : "Inquiry List",
+  "routeType" : "list-500",
+  "type" : "route",
+  "urlPrefix" : "case"
+}

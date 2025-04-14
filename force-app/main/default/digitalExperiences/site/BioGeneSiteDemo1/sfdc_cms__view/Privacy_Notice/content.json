@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Privacy Notice",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1b07b373-0b6a-4a23-b236-a6e748bf64f7\",\"columns\":[{\"UUID\":\"03bca673-ec37-4168-9e77-11e0d9655109\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Privacy Notice\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 5px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "2c55d918-3af4-4d00-80c5-0234bb64f537",
+              "type" : "component"
+            } ],
+            "id" : "03bca673-ec37-4168-9e77-11e0d9655109",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1b07b373-0b6a-4a23-b236-a6e748bf64f7",
+          "type" : "component"
+        } ],
+        "id" : "3238d9c2-e4a1-42bf-94b6-224c4db39ad2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Privacy Notice",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "a593a99d-8dbe-4778-bdc3-22bcdc0d0248",
+          "type" : "component"
+        } ],
+        "id" : "0697f29a-3205-4299-85d0-04bdd0d2160b",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9704f955-0e81-455b-9f1a-271a504ab753",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-privacy-notice"
+  },
+  "urlName" : "privacy-notice"
+}

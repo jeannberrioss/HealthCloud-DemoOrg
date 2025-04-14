@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Proposal Information",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b6b94c92-7dee-4b76-bd0a-e0a3e008b1b7\",\"columns\":[{\"UUID\":\"354a3977-35d4-4657-bcbd-10e82b68bbd2\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Proposal Information\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 5px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "0cca5547-7d7d-4e86-85fc-6e511a120388",
+              "type" : "component"
+            } ],
+            "id" : "354a3977-35d4-4657-bcbd-10e82b68bbd2",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "b6b94c92-7dee-4b76-bd0a-e0a3e008b1b7",
+          "type" : "component"
+        } ],
+        "id" : "50a9609a-68b6-41da-8036-c6c006e9358b",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Proposal Information",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ffe96e9c-180d-434d-9b5a-acc0987550de",
+          "type" : "component"
+        } ],
+        "id" : "b078fd91-530d-4639-b28e-7be99ba23480",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "ba1b89d8-6770-4809-be88-5c2d71d2bce5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-proposal-information"
+  },
+  "urlName" : "proposal-information"
+}

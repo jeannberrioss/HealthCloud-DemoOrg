@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "d5f63886-751b-4a44-846a-9f564521c4a6",
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "configurationTags" : [ ],
+  "devName" : "Care_Team_Chat__c",
+  "id" : "61bd1e26-26d9-4aa7-b3b2-3c779f658bdf",
+  "label" : "Care Team Chat",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-care-team-chat",
+  "type" : "route",
+  "urlPrefix" : "care-team-chat"
+}

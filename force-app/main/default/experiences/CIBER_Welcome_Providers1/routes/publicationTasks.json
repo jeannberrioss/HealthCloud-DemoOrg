@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a15b36b0-f41a-4049-b659-6e81cdcab1e5",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "publication_tasks__c",
+  "id" : "85f7fba5-2772-43b8-865a-757a2aca03c7",
+  "label" : "Publication Tasks",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-publication-tasks",
+  "type" : "route",
+  "urlPrefix" : "publication-tasks"
+}

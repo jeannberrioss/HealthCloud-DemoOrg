@@ -1,0 +1,219 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "22440d90-2bc2-4b44-9d61-ca22c052b865",
+  "label" : "Search Results",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(93,189,205)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "14422e70-00dc-4f53-9bb3-bfc5732238dd",
+          "columns" : [ {
+            "UUID" : "06960322-4144-4dd0-9ce0-4f3eb51cf289",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "14422e70-00dc-4f53-9bb3-bfc5732238dd",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-form-element\">\n<label class=\"slds-form-element__label\" for=\"combobox-id-1\" id=\"combobox-label-id-3\">Product </label>\n<div class=\"slds-form-element__control\">\n<div class=\"slds-combobox_container slds-size_small\">\n<div class=\"slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click\">\n<div class=\"slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right\">\n<div tabindex=\"0\" class=\"slds-input_faux slds-combobox__input\" id=\"combobox-id-1-selected-value\">\n<span class=\"slds-truncate\" id=\"combobox-value-id-3\">Select a Product</span>\n</div>\n<span class=\"slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right\">\n</span>\n</div>\n<div id=\"listbox-id-1\" class=\"slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid\" tabindex=\"0\">\n<ul class=\"slds-listbox slds-listbox_vertical\" >\n<li class=\"slds-listbox__item\">\n<div id=\"option7\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\" >\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option A\">Ciberpax</span>\n</span>\n</div>\n</li>\n<li class=\"slds-listbox__item\">\n<div id=\"option8\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\">\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option B\">Cibercillin</span>\n</span>\n</div>\n</li>\n<li class=\"slds-listbox__item\">\n<div id=\"option9\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\">\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option ABCDEFGHIJKLMNOPQRSTUVWXYZ\">Ciberpax (injection)</span>\n</span>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "92a0f9a4-6348-4b0b-8e7b-1a829e9827a5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-form-element\">\n<label class=\"slds-form-element__label\" for=\"text-input-id-2\">\n<abbr class=\"slds-required\" title=\"required\">* </abbr>Search</label>\n<div class=\"slds-form-element__control\">\n<input type=\"text\" id=\"text-input-id-2\" placeholder=\"Keywords\" required=\"\" class=\"slds-input\" />\n</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "668f7048-ae61-4859-b812-fa9f7b865f20",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<center><button class=\"slds-button slds-button_brand\">Search Library</button></center>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "15b4f17f-ef22-421a-9572-5e4c990c90be",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "06960322-4144-4dd0-9ce0-4f3eb51cf289",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8ce312ad-fce5-4fef-95fb-ce0ac11ed958",
+          "columns" : [ {
+            "UUID" : "5f323dc0-5689-4daf-a1b3-563340e7824a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8ce312ad-fce5-4fef-95fb-ce0ac11ed958",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 22px; color: rgb(0, 0, 0);\">Ciberpax</strong><strong style=\"font-size: 28px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">®&nbsp;</strong><strong style=\"font-size: 22px; color: rgb(0, 0, 0);\">(cinumab)</strong></p>\n<p style=\"text-align: center;\"><a href=\"//www.google.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 16px;\">Safety Information</a></p>\n<p style=\"text-align: center;\"><a href=\"//www.google.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 102, 204); font-size: 16px;\">Prescribing Information</a></p>\n<p style=\"text-align: center;\"><br></p>\n<p><span style=\"font-size: 16px;\">Search Results</span><strong style=\"font-size: 16px;\"> 2</strong><span style=\"font-size: 16px;\"> Documents</span></p>\n<p><br></p>\n<p><span style=\"font-size: 16px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_11818_PM.1}\" style=\"width: 58.2578px; height: 54.7812px;\"></span><strong style=\"font-size: 18px; color: rgb(24, 24, 24); background-color: rgb(255, 255, 255);\">Ciberpax interactions and comorbidities</strong></p>\n<p><span style=\"font-size: 16px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_11818_PM.1}\" style=\"width: 58.2578px; height: 54.7812px;\"></span><strong style=\"font-size: 18px; background-color: rgb(255, 255, 255); color: rgb(24, 24, 24);\">Ciberpax (cinumab) in pregnant adolescents</strong></p>\n<p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "5ebced90-4516-4972-9541-49789d795180",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5f323dc0-5689-4daf-a1b3-563340e7824a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(9,157,118,0)",
+        "backgroundOverlay" : "rgba(7, 108, 174, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "00cb9be2-0a1d-49e8-8d4e-5814428f633f",
+          "columns" : [ {
+            "UUID" : "fb818f6b-d658-4734-8593-6c7650c3e6bc",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "3ffef6c7-ad09-4b99-8b96-4f7eabeaedfe",
+            "columnKey" : "04f26",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "d51fd97a-8fdc-43d4-b9d1-d0183bbd38d0",
+            "columnKey" : "c7690",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "00cb9be2-0a1d-49e8-8d4e-5814428f633f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><strong style=\"font-size: 16px;\">Contact </strong><span style=\"font-size: 16px;\">Medical Affairs at Ciber Spring Therapeutics</span></p><p><br></p><p><strong style=\"font-size: 16px;\">Phone:</strong><span style=\"font-size: 16px;\"> 1-888-033-3433</span></p><p><span style=\"font-size: 16px;\">Monday - Friday </span></p><p><span style=\"font-size: 16px;\">9 am - 6 pm EST&nbsp;&nbsp;</span></p><p><br></p><p><strong style=\"font-size: 16px;\">Email</strong><span style=\"font-size: 16px;\">: ciberMI@ciberspringtherapeutics.com</span></p><p><br></p><p><strong><span class=\"ql-cursor\">﻿</span></strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b671ba79-5adc-4483-93b0-4d7ab380791e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fb818f6b-d658-4734-8593-6c7650c3e6bc",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px;\">Can't find something? </span></p><p><br></p><p><span style=\"font-size: 16px;\">Fill out a medical inquiry form and someone from medical information team will be in touch&nbsp;&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7d381827-da0a-41c8-8477-0cf39538f438",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<center><button class=\"slds-button slds-button_brand\">Submit Form</button></center>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c443eda4-7141-48bf-8102-3d5ff7586ef1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3ffef6c7-ad09-4b99-8b96-4f7eabeaedfe",
+        "regionLabel" : "Column 2",
+        "regionName" : "04f26",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">To report </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">adverse events</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">, you can contact the FDA's </span><a href=\"fda.gov\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 102, 204);\">MedWatch program</a><span style=\"font-size: 16px;\"> or call 1-800-223-2342 (M-F 9 am - 5 pm EST)</span></p><p><br></p><p><span style=\"font-size: 16px;\">To report </span><strong style=\"font-size: 16px;\">product complaints</strong><span style=\"font-size: 16px;\">, call 1-800-223-2300 (M-F 9 am - 5 pm EST)</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ae9ccc7b-28ea-44ab-a133-e0d747d09b52",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "d51fd97a-8fdc-43d4-b9d1-d0183bbd38d0",
+        "regionLabel" : "Column 3",
+        "regionName" : "c7690",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cf09d224-265c-410f-8a91-6941375d9194",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Search"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "73304e92-f0e5-4ca0-af18-8a3bce8bd098",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "04fbc982-4c40-4dff-89a2-9500477276c3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-hcp"
+}

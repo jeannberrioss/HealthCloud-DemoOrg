@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "440f0b1d-168c-403f-bead-5e146d0dc03a",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Search_Document__c",
+  "id" : "5310cb00-2326-4562-a9a6-62d83a8f96c6",
+  "label" : "1Search Document",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-search-document",
+  "type" : "route",
+  "urlPrefix" : "search-document"
+}

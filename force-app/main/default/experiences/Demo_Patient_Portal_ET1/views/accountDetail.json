@@ -1,0 +1,65 @@
+{
+  "appPageId" : "6d38ec1d-cb0b-4a14-a66e-742dc9a82fc2",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8f7a267e-e267-4379-bc24-f544dc3259c2",
+  "label" : "Account Detail",
+  "regions" : [ {
+    "id" : "63ce9825-a3af-4e6c-9ca4-0c899695fbc0",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "6c64d9b5-4b58-4660-8685-5c1ac9c4ffa9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "68c5f440-7520-4b48-bf84-e7767d99c4ae",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e0012fef-fe42-4107-b31a-fa1ff744bf3c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0b00edee-c2ef-4ad8-b692-9eb0e1927ae4",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6c8b93ea-1ca4-4f40-a1ca-f9bce1e1377d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3bf913cb-3075-4cb8-be22-60ad15fe9c4a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-001"
+}

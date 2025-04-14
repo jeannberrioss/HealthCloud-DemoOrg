@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "eb1e2064-0024-4ccf-8d6f-fe38b98714fb",
+  "appPageId" : "be50b2b1-8422-481a-8d17-73ad263fef95",
+  "configurationTags" : [ ],
+  "devName" : "Related_Record_List",
+  "id" : "180b1501-85b7-4d9e-8b43-4d397d9f1c82",
+  "label" : "Related Record List",
+  "pageAccess" : "UseParent",
+  "routeType" : "relatedlist",
+  "type" : "route",
+  "urlPrefix" : "relatedlist"
+}

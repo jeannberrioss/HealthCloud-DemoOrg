@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "dfd79c2d-651d-4bc4-a4bc-87c7220dfb2c",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Congress__c",
+  "id" : "fa0950f0-52ed-4ddb-996f-6646431053a5",
+  "label" : "1Congress",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-congress",
+  "type" : "route",
+  "urlPrefix" : "congress"
+}

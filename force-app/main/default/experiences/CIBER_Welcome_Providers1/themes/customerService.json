@@ -1,0 +1,167 @@
+{
+  "activeBrandingSetId" : "a1ea7aa2-6eb8-4fdc-baee-c563bd14b0f9",
+  "customCSS" : "p {\n    padding-bottom:16px!important;\n}\n\np.copyright {\n    padding-bottom: 0!important;\n}\n\n.slds-col--padded .comm-content-header .comm-layout-column {\n    padding-top: 0!important;\n    min-height: calc(100vh - 200px);\n}\n\n.siteforceContentArea .comm-layout-column .ui-widget:not(:last-child), .siteforceContentArea .cb-section_column .ui-widget:not(:last-child) {\n    margin-bottom: 1rem!important;\n}\n\n.footer-shared {\n    align-items:center;\n    background:url(\"https://ciberhealth.my.site.com/identify/file-asset/footerbackground?v=1\");\n    color:#fff;\n    display:flex;\n    justify-content:center;\n    min-height:60px;\n}\n\n.body-search {\n    display:none;\n}\n\n.cProfileCon {\n    display:none;\n}\n\n/* Hero start */\n.hero-image {\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(\"https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STc2&oid=00D5w000007M4Jf&lastMod=1688654857000\");\n  max-height: 400px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: relative;\n}\n\n.hero-text {\n  text-align: left;\n  position: absolute;\n  top: 50%;\n  left: 36%;\n  transform: translate(-50%, -50%);\n  color: white;\n}\n\n.hero-text button {\n  border: none;\n  display: inline-block;\n  padding: 10px 25px;\n  color: black;\n  background-color: #ddd;\n  text-align: center;\n  cursor: pointer;\n  margin-bottom: 1rem;\n}\n\n.hero-text button:hover {\n  background-color: #555;\n  color: white;\n}\n\n@media (max-width: 768px) {\n  .slds-col--padded .comm-content-header .comm-layout-column {\n      padding-top: 0!important;\n      min-height: calc(100vh - 124px);\n  }\n} \n\n@media only screen and (min-width: 48em) {\n.siteforceServiceBody .cBrandingProfile {\n    width: 25%!important;\n}\n}",
+  "developerName" : "service",
+  "id" : "8c90b11a-7642-4a76-a692-21d59e6264e6",
+  "label" : "Customer Service",
+  "layouts" : {
+    "Inner" : "e1403201-c325-470a-9a9d-42af7bb5b482",
+    "Login" : "15bd18ea-dd2d-4802-8b3c-1a22beb23825",
+    "ServiceNotAvailable" : "4d2c2631-7b8c-42c4-82ca-99eeb260183e"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "15bd18ea-dd2d-4802-8b3c-1a22beb23825",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "90f479bb-cb50-483c-812a-e2031d3fd1ef",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "d164ff11-052f-4911-af1d-19e6325bac7c",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "5b9ccf08-f7cc-476c-8bf2-48a001f11ed7",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : false,
+      "IsDefaultNotificationsHidden" : true,
+      "fixedPageWidth" : 1499,
+      "isPageWidthFixed" : true
+    },
+    "componentName" : "siteforce:serviceBody",
+    "id" : "e1403201-c325-470a-9a9d-42af7bb5b482",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : ""
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "0857ee4f-1f0a-4175-899f-d4402f8c2922",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "0e55c771-7d8a-4ce0-ac9a-03cf30688338",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "contineActionLabel" : "Ask the community",
+          "continueLabel" : "Don’t see it?",
+          "crossObjectTypeaheadApiNames" : [ {
+            "isPublic" : true,
+            "name" : "FeedItem"
+          } ],
+          "disableCrossObjectRelevance" : false,
+          "enableAutocomplete" : true,
+          "maxNumberOfResults" : 6,
+          "placeholder" : "Search...",
+          "questionResultsFirst" : false,
+          "showContinueAction" : true,
+          "showDetails" : false,
+          "showTopics" : true,
+          "signInActionLabel" : "Sign in to ask the community"
+        },
+        "componentName" : "forceCommunity:searchBox",
+        "id" : "f227afda-5107-4d08-809c-4e27279fb212",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "b088313f-f608-4770-9499-315354a29d14",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "My Cases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : false,
+          "showUserSettings" : false,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "39024338-ad1e-4ab6-afdc-eec3c2b55ccc",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "a831f1c4-87ff-4804-8741-b3e26b5c2115",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : false,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "94cbef62-5846-4fc4-9535-5d67c3bbe758",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "fa06453e-5b9c-4ed0-b779-11dddbadbaca",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "0ae8bec5-577e-45f3-81be-1d7bdf23b426",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div class=\"footer-shared\"><center><p class=\"copyright\">Ciberspring Therapeutics © 2024</p></center></div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "9b6dd284-8040-47ff-93bf-caa019db0de5",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "6546c95f-2668-470c-8317-5820ab8866f7",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : true,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "4d2c2631-7b8c-42c4-82ca-99eeb260183e",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "8afab7cc-4d1f-41dc-ad8d-3645c9fb3b98",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "08f6b1d7-ef85-4dc3-be67-0b7bfdbe8a12",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

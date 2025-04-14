@@ -1,0 +1,150 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "7b0bd733-0be2-41c8-9906-0aa01fda5170",
+  "label" : "1Find MSL",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "530d4985-f2b0-4234-a4b9-a156786a0d00",
+          "columns" : [ {
+            "UUID" : "6ac95299-ba60-46f5-bbd2-b27b333fdc94",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "530d4985-f2b0-4234-a4b9-a156786a0d00",
+      "regions" : [ {
+        "id" : "6ac95299-ba60-46f5-bbd2-b27b333fdc94",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(29,42,58)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "5f27e482-1356-4d4d-8497-5f8b762e09a7",
+          "columns" : [ {
+            "UUID" : "7a27d611-7655-438b-8d8c-ed229d2f8b44",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : 6,
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "2c420867-878e-41e1-89f5-875695b2a76d",
+            "columnKey" : "bb625",
+            "columnName" : "Column 2",
+            "columnWidth" : 6,
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "5f27e482-1356-4d4d-8497-5f8b762e09a7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Screenshot_20230703_at_122437_PM.1}\" alt=\"\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "ad9c8a71-dd9a-4f72-99fe-ff4c58bdaacb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7a27d611-7655-438b-8d8c-ed229d2f8b44",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p>\n<p><br></p>\n<h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Ciberspring Therapeutics </span></h1>\n<h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">representatives in your state</span></h1>\n<p><br></p>\n<p style=\"text-align: right;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230703_at_124956_PM.1}\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "2972dd9e-0fdf-4d31-a871-01dd52acf884",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2c420867-878e-41e1-89f5-875695b2a76d",
+        "regionLabel" : "Column 2",
+        "regionName" : "bb625",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "ba5ae37f-9214-4b80-8e1b-7c276c2388c3",
+          "columns" : [ {
+            "UUID" : "f300ebc1-e1dd-4e5d-8943-510708029095",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "ba5ae37f-9214-4b80-8e1b-7c276c2388c3",
+      "regions" : [ {
+        "id" : "f300ebc1-e1dd-4e5d-8943-510708029095",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8bf5315b-46bb-4831-a837-c37a5d4fa86b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1Find MSL"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0da99396-ee5e-4b39-abe1-7acd2d27ab93",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a402cf5a-ca8c-443f-ae1c-103901acdd59",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-find-msl"
+}

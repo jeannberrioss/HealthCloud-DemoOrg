@@ -1,0 +1,129 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9885f009-468b-4a23-8438-db31280635da",
+  "label" : "MIRF",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "aa863d25-fdb1-4620-bac9-cb0d203ef1a0",
+          "columns" : [ {
+            "UUID" : "f6e018ef-ee52-4fb4-9fb2-a7f6987641f0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "aa863d25-fdb1-4620-bac9-cb0d203ef1a0",
+      "regions" : [ {
+        "id" : "f6e018ef-ee52-4fb4-9fb2-a7f6987641f0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(29,42,58)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "931b719c-9f29-4de2-89bd-2735178fc289",
+          "columns" : [ {
+            "UUID" : "884a3c90-65ef-41e4-babb-250ce0b03df9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "931b719c-9f29-4de2-89bd-2735178fc289",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "MIRF"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "bdfca730-6372-4cd8-b09d-b9798edcc9be",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "884a3c90-65ef-41e4-babb-250ce0b03df9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "487e4505-d3e3-45c9-bcb3-585ebc6e0d65",
+          "columns" : [ {
+            "UUID" : "37522dee-8dcd-496b-a44e-757e95a274d5",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "487e4505-d3e3-45c9-bcb3-585ebc6e0d65",
+      "regions" : [ {
+        "id" : "37522dee-8dcd-496b-a44e-757e95a274d5",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6fcf1095-8705-4a53-bf83-b3b914258297",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "MIRF"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "34ebc11c-1f1c-49a8-b4dd-3435d417d786",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "36e6a178-0fdd-477d-9948-baaa3a88aa6f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mirf"
+}

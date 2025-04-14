@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f2734fee-e2f5-4041-aea4-96bb21e2eaf1",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "Project_Author_Detail__c",
+  "id" : "4b1e875d-58bd-4d08-a773-0dc878028b00",
+  "label" : "Project Author Detail",
+  "objectApiName" : "Project_Author__c",
+  "routeType" : "detail-a2p",
+  "type" : "route",
+  "urlPrefix" : "project-author"
+}

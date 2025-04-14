@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "4d6b1d5a-952e-43f9-a2dc-136d95b109bd",
+  "appPageId" : "89c55df1-1331-4a04-b60e-29268f58386d",
+  "configurationTags" : [ ],
+  "devName" : "Member_Services__c",
+  "id" : "03fff65e-ed0a-4ccc-8509-96f3fe3dc137",
+  "label" : "Member Services",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-member-services",
+  "type" : "route",
+  "urlPrefix" : "member-services"
+}

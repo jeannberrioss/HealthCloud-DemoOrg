@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "7b0bd733-0be2-41c8-9906-0aa01fda5170",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Find_MSL__c",
+  "id" : "07c62b28-80d5-4ade-bdec-1b17eaae4f27",
+  "label" : "1Find MSL",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-find-msl",
+  "type" : "route",
+  "urlPrefix" : "find-msl"
+}

@@ -1,0 +1,196 @@
+{
+  "appPageId" : "be50b2b1-8422-481a-8d17-73ad263fef95",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "67fb7f2a-91c1-486e-8c2e-cadf8ec8f83e",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "67b46bdf-ffb1-496e-943f-bbdddbfa80b5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "filterName" : "00B3A00000AonfWUAR",
+        "layout" : "COMPACT",
+        "pageSize" : 10,
+        "scope" : "Case",
+        "showDisplay" : "showall"
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "c8a108a8-5612-4698-8a24-b323b480ebb5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42406051-6c8a-4d15-8325-b7f08f1bd148",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><b style=\"color: rgb(63, 71, 96); font-size: 18px; font-family: arial;\">Select a request type below to submit member data for authorization.﻿</b></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "06ec14da-6a75-43db-9210-8dc5f03c2947",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "attachFiles" : true,
+        "authenticatedActionName" : "",
+        "confirmationMessageDescription" : "You'll hear back from us soon.",
+        "confirmationMessageTitle" : "Your request was submitted successfully.",
+        "deflectionCategoryGroupName" : "{!DataCategoryGroupName}",
+        "deflectionNotHelpful" : "Didn't find what you're looking for?",
+        "deflectionNumberOfArticles" : 6,
+        "deflectionParentCategory" : "{!TopLevelCategory}",
+        "deflectionSubHeader" : "Check out these articles...",
+        "deflectionTitle" : "Need Answers Fast?",
+        "hasDeflection" : true,
+        "headerTitle" : "Create a Case",
+        "isReCaptchaEnabled" : false,
+        "reCaptchaPrivateKey" : "",
+        "reCaptchaPublicKey" : "",
+        "unauthenticatedActionName" : ""
+      },
+      "componentName" : "selfService:caseCreate",
+      "id" : "8d1260e1-a864-4e2f-826f-8bb0e1444c7b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : true,
+        "careRequestType" : "Service_Request"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "200d4578-5f8b-43b0-85cb-d25ce9551851",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : true,
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Drug_Request"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "15c454aa-2f50-4302-a917-3649ff517e57",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : true,
+        "careRequestType" : "Admission"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "a3034b9c-f332-4f90-ae6d-e9b0b0cd7701",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Appeal"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "e22c807a-41b8-437c-8b0f-d53a31cc9aa0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Grievance"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "ed137828-d3f5-469f-97b8-9d4fe0bd5401",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "efd4635d-891c-4378-a2c5-2deea0b74b35",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "channel" : "DefaultChannel",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:recommendations",
+      "id" : "1f48f1f3-cc66-4013-9ea7-e77235e6d40c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : false,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
+        "title" : "Leaderboard",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the community!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "0ec1929e-bab6-4371-ac59-f350cd10ab28",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5704dd10-e6de-4e85-8c19-fc6b40f55aca",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askCommunityLabel" : "Ask a Question",
+        "contactSupportLabel" : "Contact Support",
+        "headerLabel" : "Don't see what you're looking for?",
+        "showDetails" : false,
+        "showTopics" : true
+      },
+      "componentName" : "siteforce:napiliFooter",
+      "id" : "da430370-d538-461c-9d61-a822179d8ead",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6b41a691-bb92-4f28-bd1d-08d5cd319c51",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b1c81576-f63d-4a71-b9e6-23503abe890f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad64658f-2b34-4fbe-806f-c3eca4c90a5a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

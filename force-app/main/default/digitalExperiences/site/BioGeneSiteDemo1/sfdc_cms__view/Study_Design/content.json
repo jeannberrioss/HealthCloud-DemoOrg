@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Study Design",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0d2908cb-a34e-48ba-aff6-1aa44858cf47\",\"columns\":[{\"UUID\":\"f72fc97a-cd72-4439-8213-e2a29d38ae83\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Study Design\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 1px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "600d2fb0-6f88-4223-9f9c-0e8c0dd1db15",
+              "type" : "component"
+            } ],
+            "id" : "f72fc97a-cd72-4439-8213-e2a29d38ae83",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0d2908cb-a34e-48ba-aff6-1aa44858cf47",
+          "type" : "component"
+        } ],
+        "id" : "6e071f44-9760-411a-b2a2-5c0b9492d4d2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Study Design",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "911df5a0-ee7a-4bc1-af41-c7afa9409780",
+          "type" : "component"
+        } ],
+        "id" : "b51f5b93-ce73-4e2d-ad92-654945db1088",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "2b5b816a-fa99-43ea-94df-167a63efa2cd",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-study-design"
+  },
+  "urlName" : "study-design"
+}

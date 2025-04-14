@@ -1,0 +1,65 @@
+{
+  "appPageId" : "f2b695f0-09a5-42d4-8f45-cb2733a874a4",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1a23c2ff-b6b7-4837-b071-18bf6de441c7",
+  "label" : "Record Detail",
+  "regions" : [ {
+    "id" : "62370803-5b1b-4e7c-8f28-8b0b8cad3278",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "ab1f2259-8217-4625-8579-6659374ea322",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "d4da189b-9217-4055-9e1c-d9e12bebe24f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff384c2c-2c9b-4f99-856a-13217bad75cf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "94f8032c-758f-4010-b05c-3c9d6aa8d508",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bbb61153-5708-41f8-a876-a2c7d65a8fd1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9943f783-ec7b-4578-aec7-45c8198c3aa5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail"
+}

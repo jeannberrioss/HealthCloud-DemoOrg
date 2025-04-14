@@ -1,0 +1,90 @@
+{
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "7d52ca3a-5ce0-48ab-91e9-b30bdf70a015",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : true,
+        "allowMultipleCareRequestItem" : true,
+        "careRequestType" : "Drug_Request"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "7d857574-f9c1-466a-b8f5-ebe22ff63421",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "IncludeYearOfBirth" : true,
+        "includeAllCarePlanOption" : true,
+        "picklistDefaultOptionText" : "Select a name and care plan...",
+        "showBirthDate" : false,
+        "useMonthText" : true
+      },
+      "componentName" : "HealthCloudGA:HcCommunityCarePlanPicker",
+      "id" : "c9526e99-0c33-47dd-bdc5-d5bc843a2a74",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 30,
+        "borderRadius" : 0,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "Default_Navigation2",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "b9d18a96-08dd-4c98-b5ab-e37bcc148787",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "289653cf-060a-4e67-b9b5-93637a97a524",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "4f0dad26-729f-4bb0-bbe6-27287a34b096",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0ce4f9b6-62d2-4a8f-8819-e813e7dc9ca6",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "e163a8c8-10a7-43e3-b144-392064f16ad0",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f30f66e6-baf6-4a2c-9158-220ccebf1c40",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "12396aec-1761-413c-94d9-3830d7db9446",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

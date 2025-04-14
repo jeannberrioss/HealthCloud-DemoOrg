@@ -1,0 +1,48 @@
+{
+  "appPageId" : "89c55df1-1331-4a04-b60e-29268f58386d",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a83c717b-f0d0-4e78-826d-bd844903b72d",
+  "label" : "Assessment",
+  "regions" : [ {
+    "id" : "0fc5f414-a489-4ee8-9a6c-94070037801f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "surveyName" : "pam_assessment"
+      },
+      "componentName" : "forceCommunity:surveyCommunity",
+      "id" : "f54eaecf-2676-403c-8dc5-0a6f51178957",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "60ee8548-f83e-4a29-8bb7-22569b4a7a36",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9a9d4a04-0c02-4c6f-9779-8ff371768372",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Assessment"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f4ed3cd9-5171-41cc-abe9-ab573f8b1ac5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "db80b71d-91d0-44d9-81a1-fe3172e4dfbc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-assessment"
+}

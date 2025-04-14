@@ -1,0 +1,187 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Welcome Page",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9b36bfaa-6fd7-4db5-a38f-d8e2211b4871\",\"columns\":[{\"UUID\":\"807be8a3-b559-4abd-b101-aa223f7d2229\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Welcome, Garland Chase!\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 5px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n    <!-- Content Section -->\n    <!-- Applied matching increased padding-right to constrain content width -->\n    <div style=\"color: black; padding-left: 300px; padding-right: 300px; /* Matched increased right padding */\">\n        <!-- Existing inline style for center alignment is kept -->\n        <p style=\"text-align: center;\">\n            The organization you are currently associated with is James Smith.</p><br/>\n        <p>\n            BeiGene, Ltd. has proposed to change its name to <b>BeOne Medicines Ltd.</b> The new name is subject to shareholder approval and once approved, use of the name will be phased in over 2025. There may be instances where \"BeiGene\" or \"BeOne\" are used to describe the company during this transition period.\n        </p><br/>\n        <p>\n            The IIT application consists of several sections, each of which must be completed for your proposal to be considered.\n        </p><br/>\n        <!-- Ordered list with default paragraph wrapping -->\n        <ol type=\"1\">\n            <li style=\"margin-left: 20px\">1. Contact information pertaining to your organization.</li>\n            <li style=\"margin-left: 20px\">2. Basic information pertaining to your organization.</li>\n            <li style=\"margin-left: 20px\">3. The proposal your organization is submitting for approval.</li>\n        </ol><br/>\n        <p>\n            Once submitted, all completed are immediately sent to BeiGene.\n        </p><br/>\n        <p>\n            We recommend that you <u><a href=\"https://www.google.com\">familiarize yourself with the online application</a></u> before you begin. To create a new application, click the \"Start a New Application\" link at the bottom of this page. You may also save your applications now and return to work on them later. To continue work on an unsubmitted application, click the \"Continue\" link next to the application's Project Title.\n            To view an application previously submitted to BeiGene, click the \"View\" link next to the appropriate Project Title.\n        </p><br/>\n        <p>\n            If you work with multiple Primary Investigators, you can <u><a href=\"https://www.google.com\">add a new Primary Investigator to your account.</a></u>\n        </p><br/>\n        <p>\n            Each page will have a timeline like the one below to help you monitor your progress. The line and text will indicate your current position within the application process. If you have technical questions regarding this application, use the link located at the bottom of every page to contact our support team.\n        </p><br/>\n        <p>\n            If you decide to share access to your requests within your organization, the following access code <b>10452FNTYKFRZXGSSBX</b> together with the registration link <b>https://www.cybergrants.com/beigene/proposal-quick-registration</b> should be provided to the relevant person. Shared access will allow the relevant person(s) to view and edit your requests.\n        </p>\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "ad9b3392-7fad-4ace-b2c5-f7621a531da9",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "5px",
+                    "left" : "5px",
+                    "right" : "5px",
+                    "top" : "5px"
+                  }
+                }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "activeLineWeight" : "3px",
+                    "backgroundColor" : "rgba(255, 255, 255, 0)",
+                    "dropdownAccordionIconSize" : "xx-small",
+                    "dropdownActiveLineWeight" : "5px",
+                    "dropdownBackgroundActiveColor" : "rgba(0, 0, 0, 0)",
+                    "dropdownBackgroundColor" : "",
+                    "dropdownBackgroundHoverColor" : "",
+                    "dropdownBottomBorderRadius" : "5px",
+                    "dropdownFontSizeOverride" : "",
+                    "dropdownFontWeightOverride" : "300",
+                    "dropdownItemPadding" : "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"10px\"}",
+                    "dropdownLineHeightOverride" : "",
+                    "dropdownMenuPadding" : "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
+                    "dropdownOverrideTextStyle" : true,
+                    "dropdownShowDividerLines" : false,
+                    "dropdownTextDecorationOverride" : "",
+                    "dropdownTextStyle" : "body-regular",
+                    "dropdownTopBorderRadius" : "5px",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "20%",
+                        "right" : "20%",
+                        "top" : ""
+                      }
+                    },
+                    "fontSizeOverride" : ".75rem",
+                    "fontWeightOverride" : "",
+                    "iconSize" : "xx-small",
+                    "itemBackgroundActiveColor" : "rgba(255, 255, 255, 0)",
+                    "itemBackgroundHoverColor" : "rgba(255, 255, 255, 0)",
+                    "lineHeightOverride" : "",
+                    "menuHorizontalAlignment" : "left",
+                    "navigationMenuEditor" : "BeiGene_Welcome_Page_Menu",
+                    "overrideTextStyle" : true,
+                    "showHomeLink" : false,
+                    "showParentMenuIcon" : true,
+                    "spaceBetweenMenuItems" : "1px",
+                    "textActiveColor" : "rgb(18, 93, 155)",
+                    "textColor" : "rgb(130, 131, 133)",
+                    "textDecorationOverride" : "",
+                    "textStyle" : "body-regular"
+                  },
+                  "definition" : "community_navigation:customizableNavigationBarContainer",
+                  "id" : "b907c8b0-fbf2-4e40-bc48-a680d363ee3c",
+                  "type" : "component"
+                } ],
+                "id" : "60a1d4ff-1c90-4150-abc1-1ed41f1a06c0",
+                "name" : "desktop",
+                "title" : "Desktop View",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "burgerIconHorizontalAlignment" : "left",
+                    "modalAccordionIconSize" : "xx-small",
+                    "modalActiveBackgroundColor" : "rgba(255, 255, 255, 0)",
+                    "modalActiveLineWeight" : "5px",
+                    "modalFontSizeOverride" : "",
+                    "modalFontWeightOverride" : "",
+                    "modalItemPadding" : "{\"top\":\"10px\",\"right\":\"10px\",\"bottom\":\"10px\",\"left\":\"15px\"}",
+                    "modalLineHeightOverride" : "",
+                    "modalMenuPadding" : "{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}",
+                    "modalOverrideTextStyle" : false,
+                    "modalShowDividerLines" : true,
+                    "modalSubmenuFontSizeOverride" : "",
+                    "modalSubmenuFontWeightOverride" : "300",
+                    "modalSubmenuLineHeightOverride" : "",
+                    "modalSubmenuOverrideTextStyle" : true,
+                    "modalSubmenuTextDecorationOverride" : "",
+                    "modalSubmenuTextStyle" : "body-regular",
+                    "modalTextDecorationOverride" : "",
+                    "modalTextStyle" : "body-regular",
+                    "showHomeLink" : true
+                  },
+                  "definition" : "community_navigation:customizableNavigationHamburgerMenuContainer",
+                  "id" : "133cc943-04ff-43b9-92e8-01fddac20e36",
+                  "type" : "component"
+                } ],
+                "id" : "aad4bfed-4eda-4cf6-992c-93f7b4e50764",
+                "name" : "mobile",
+                "title" : "Mobile View",
+                "type" : "region"
+              } ],
+              "definition" : "community_navigation:customizableNavigationMenu",
+              "id" : "b3947295-83ba-4aad-9a81-01c0bc5ace7d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<!-- Outermost container to enforce alignment boundaries -->\n<div style=\"padding-left: 280px; padding-right: 280px;\">\n\n    <!-- Container with more visible dotted border -->\n    <div style=\"border: 2px dotted #888888;\n                padding: 25px;\n                box-sizing: border-box;\n                width: 100%;\n               \">\n\n        <!-- Flex container for menu items -->\n        <div style=\"display: flex;\n                    width: 100%;\n                    text-align: center;\n                   \">\n\n            <!-- Menu Item 1: Welcome Page -->\n            <div style=\"flex: 1;\n                        padding: 18px 5px; /* Keep custom padding if needed */\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"#\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Welcome Page\n                </a>\n            </div>\n\n            <!-- Menu Item 2: Primary Investigator Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/primary-investigator-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Primary Investigator Information\n                </a>\n            </div>\n\n            <!-- Menu Item 3: Contact Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/contact-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Contact Information\n                </a>\n            </div>\n\n            <!-- Menu Item 4: Proposal Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/proposal-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Proposal Information\n                </a>\n            </div>\n\n            <!-- Menu Item 5: Study Design -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/study-design\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Study Design\n                </a>\n            </div>\n\n             <!-- Menu Item 6: Documentation -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/documentation\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Documentation\n                </a>\n            </div>\n\n             <!-- Menu Item 7: Privacy Notice -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/privacy-notice\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Privacy Notice\n                </a>\n            </div>\n\n        </div><!-- End Flex container -->\n\n    </div><!-- End Dotted border container -->\n\n</div><!-- End Alignment container -->"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "891400a7-b6c2-4582-bd1e-712f5fe71875",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<!-- Container div to control alignment boundaries (defaults to left-align) -->\n<div style=\"padding-left: 280px; padding-right: 300px; text-align: left;\">\n\n    <!-- Start Application Button -->\n    <a href=\"#\" style=\"display: inline-block; background-color: #074982; color: white; padding: 8px 12px; /* Reduced padding */ text-decoration: none; border: none; text-align: center; font-size: 14px; /* Reduced font size */\">\n        » START A NEW IIT APPLICATION «\n    </a>\n\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "04aa87b3-4f9d-4ba1-97b4-d6b3c6b3976e",
+              "type" : "component"
+            } ],
+            "id" : "807be8a3-b559-4abd-b101-aa223f7d2229",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9b36bfaa-6fd7-4db5-a38f-d8e2211b4871",
+          "type" : "component"
+        } ],
+        "id" : "0d526567-c89c-4a0b-b469-f9f79636ce68",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Welcome Page",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "70d1fd2e-efd0-4d09-a2fe-6ef92238088f",
+          "type" : "component"
+        } ],
+        "id" : "b95b455e-e316-4a65-b092-a14e9783ccdf",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "66cd5be9-76d8-4fd4-92bd-6e4a83424e83",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

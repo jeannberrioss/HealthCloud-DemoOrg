@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "b87f3492-9bb9-4fd3-85a1-66bf22adb9db",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "Project_Author_List__c",
+  "id" : "ddfe0999-feb3-4f2d-b702-96530cdf3859",
+  "label" : "Project Author List",
+  "objectApiName" : "Project_Author__c",
+  "routeType" : "list-a2p",
+  "type" : "route",
+  "urlPrefix" : "project-author"
+}

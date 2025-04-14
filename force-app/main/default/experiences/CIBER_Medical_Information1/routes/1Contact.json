@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "22d302a8-b968-46a3-9e9d-92e1ed3d8ebf",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Contact__c",
+  "id" : "19431d7a-4bd0-4dc9-8de9-e121a9bca00e",
+  "label" : "1Contact",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-contact",
+  "type" : "route",
+  "urlPrefix" : "contact"
+}

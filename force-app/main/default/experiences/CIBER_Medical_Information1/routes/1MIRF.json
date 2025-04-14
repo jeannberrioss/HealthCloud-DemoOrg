@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9885f009-468b-4a23-8438-db31280635da",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "MIRF__c",
+  "id" : "0962d6ee-59d1-4f0f-a388-4fa699fc7ba2",
+  "label" : "1MIRF",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mirf",
+  "type" : "route",
+  "urlPrefix" : "mirf"
+}

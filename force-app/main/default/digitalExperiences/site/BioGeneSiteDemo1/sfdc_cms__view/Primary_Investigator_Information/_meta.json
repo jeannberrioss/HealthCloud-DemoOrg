@@ -1,0 +1,5 @@
+{
+  "apiName" : "Primary_Investigator_Information",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

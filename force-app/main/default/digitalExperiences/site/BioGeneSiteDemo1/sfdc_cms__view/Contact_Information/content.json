@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Contact Information",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a98cac05-6415-44c7-aa5f-107dac1cbfe5\",\"columns\":[{\"UUID\":\"5f67f1d3-31e0-422f-8190-bec08b01704c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Contact Information\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 5px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1a87ae67-2b78-42b4-8427-9e55bba3aceb",
+              "type" : "component"
+            } ],
+            "id" : "5f67f1d3-31e0-422f-8190-bec08b01704c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a98cac05-6415-44c7-aa5f-107dac1cbfe5",
+          "type" : "component"
+        } ],
+        "id" : "e0aded71-e670-4b06-bafa-1c340216222f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Contact Information",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "78b6ff9b-f6ae-45b2-8120-9fbaecdfb0f8",
+          "type" : "component"
+        } ],
+        "id" : "6d0ad599-af1a-449c-b8b1-5f7a955efdd4",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "379dd1c7-1082-4c16-a23d-0a85a50a6dc4",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-contact-information"
+  },
+  "urlName" : "contact-information"
+}

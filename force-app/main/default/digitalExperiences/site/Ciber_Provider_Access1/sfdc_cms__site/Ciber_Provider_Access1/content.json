@@ -1,0 +1,8 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "Ciber Provider Access",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED"
+  },
+  "urlName" : "ciber-provider-access"
+}

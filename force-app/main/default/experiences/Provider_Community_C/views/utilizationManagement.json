@@ -1,0 +1,126 @@
+{
+  "appPageId" : "be50b2b1-8422-481a-8d17-73ad263fef95",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "2086d480-a775-4e91-abc8-5777753a20f9",
+  "label" : "Utilization Management",
+  "regions" : [ {
+    "id" : "93c7e482-38aa-4723-9003-2a6876f09a49",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><b style=\"color: rgb(63, 71, 96); font-size: 18px; font-family: arial;\">Select a request type below to submit member data for authorization.﻿</b></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "f223413b-ea37-4b01-a300-c9ffea38a3cd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : true,
+        "careRequestType" : "Service_Request"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "ddfd99d7-5376-4285-90d1-2809a86905c8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : true,
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Drug_Request"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "241a7a98-7c22-49cd-99b4-1f069ff8238b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : true,
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : true,
+        "careRequestType" : "Admission"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "9b3d1680-4e85-40d2-9e7f-f66a9ee97509",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Appeal"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "d7fd3b5a-7d65-4178-a9c6-22aae7f241fd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Grievance"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "a3fa6c5e-0e65-4674-bf1c-24612767fc22",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2abe755c-edc2-4c02-bd07-32115b4947dd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "filterName" : "00B3A00000AonfWUAR",
+        "layout" : "COMPACT",
+        "pageSize" : 10,
+        "scope" : "Case",
+        "showDisplay" : "showall"
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "e7e81a18-5b5f-42f0-b9ce-9f427006021c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "558ae72a-a8e3-42c4-8fa6-fa7bb1ac40e8",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "27eef5c4-102b-412e-9118-4433202078a8",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Utilization Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8c0edd22-8020-4f5b-ab1a-d92f9db82e5a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c7192ef9-f192-4770-9d82-4c2bd8e8c74c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-utilization-management"
+}

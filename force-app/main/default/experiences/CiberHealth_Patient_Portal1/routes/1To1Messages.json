@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "79a5481d-a568-465c-862b-44fc1a6a4a42",
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "configurationTags" : [ ],
+  "devName" : "X1_to_1_Messages__c",
+  "id" : "80d78104-3e96-420a-af04-a0c838610394",
+  "label" : "1 to 1 Messages",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-1-to-1-messages",
+  "type" : "route",
+  "urlPrefix" : "1-to-1-messages"
+}

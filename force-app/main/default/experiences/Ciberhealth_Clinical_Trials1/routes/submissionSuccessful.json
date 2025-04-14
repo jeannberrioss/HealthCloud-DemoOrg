@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a8963917-109a-44ff-b4d4-6df6d85eeedc",
+  "appPageId" : "f2b695f0-09a5-42d4-8f45-cb2733a874a4",
+  "configurationTags" : [ ],
+  "devName" : "ClinicalTrialSubmissionSuccessful__c",
+  "id" : "9a4d956d-6a93-4302-b422-54488b8a5e05",
+  "label" : "Submission Successful",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-submission-successful",
+  "type" : "route",
+  "urlPrefix" : "submission-successful"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "73b9d42f-5275-48ca-8a76-1beabe873097",
+  "appPageId" : "89c55df1-1331-4a04-b60e-29268f58386d",
+  "configurationTags" : [ ],
+  "devName" : "My_Health__c",
+  "id" : "b9c52b1b-f20e-4870-a63c-c4bddbcc90b8",
+  "label" : "My Health",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-my-health",
+  "type" : "route",
+  "urlPrefix" : "my-health"
+}

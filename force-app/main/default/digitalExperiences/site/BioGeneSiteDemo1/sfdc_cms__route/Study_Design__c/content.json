@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Study Design",
+  "contentBody" : {
+    "activeViewId" : "Study_Design",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-study-design",
+    "urlPrefix" : "study-design"
+  },
+  "urlName" : "study-design"
+}

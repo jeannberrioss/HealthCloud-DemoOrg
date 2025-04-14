@@ -1,0 +1,84 @@
+{
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "8bd52c7a-dba1-4428-9419-58601ac39c88",
+  "label" : "Education",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "a place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "KNOWLEDGE",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "a68b1297-12c7-496d-9ab0-8ac67cf5dfa8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "484b2658-a500-4e57-b3a0-51af4ebbaa23",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.stethoscope840125_19201.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "cf600878-fc28-4c59-b6aa-27bcf0117b9b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "38ecb7d1-5d5f-4c02-9aed-06c367b278b8",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "showTitle" : true,
+        "title" : "Top Articles",
+        "topicList" : [ {
+          "isPublic" : true,
+          "name" : "0TO5w000000tWUjGAM"
+        } ]
+      },
+      "componentName" : "forceCommunity:topArticleList",
+      "id" : "da041545-231a-4ef7-b270-f016aa130eaf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c1af05cd-8208-496a-9405-f6e807a3bd29",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "af573d84-6d8d-4179-9db1-5189c4b8392e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Education"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1343e4d9-0ac5-4ae7-9f89-5cf88aebf137",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "147db450-c7fb-4791-a1fa-53cb3d3c6c26",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-education"
+}

@@ -1,0 +1,126 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "65836f96-0634-4a34-8141-909308ebc558",
+  "label" : "Search Keywords",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3ef24f00-6396-40f4-80b0-c7092b1b41d6",
+          "columns" : [ {
+            "UUID" : "7af3150d-0a7c-4172-877e-17c8ef8da43c",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3ef24f00-6396-40f4-80b0-c7092b1b41d6",
+      "regions" : [ {
+        "id" : "7af3150d-0a7c-4172-877e-17c8ef8da43c",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(29,42,58)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d6f83894-95e6-4dc5-92d3-7782556967f2",
+          "columns" : [ {
+            "UUID" : "478051e7-f670-49e0-8de4-19212783f83e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d6f83894-95e6-4dc5-92d3-7782556967f2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:SearchCIBERMedicalInformation",
+          "id" : "5ec7d5c1-4a63-41c8-8ba7-fe6a984eddb2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "478051e7-f670-49e0-8de4-19212783f83e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(9,157,118,0)",
+        "backgroundOverlay" : "rgba(7, 108, 174, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "be3a6f04-35a9-4316-8cd7-e13c5355229e",
+          "columns" : [ {
+            "UUID" : "b08a0f32-13f5-47d3-9a61-0d336937f4b9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "be3a6f04-35a9-4316-8cd7-e13c5355229e",
+      "regions" : [ {
+        "id" : "b08a0f32-13f5-47d3-9a61-0d336937f4b9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "43382bce-6a16-49f8-853c-1d7726ab40ad",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Search"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1d9a1cb0-7c19-4131-9614-54d21658df04",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f1e2c3a8-c241-46cd-aa4f-cb4829d37b5b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-hcp"
+}

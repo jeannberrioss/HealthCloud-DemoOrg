@@ -1,0 +1,68 @@
+{
+  "appPageId" : "f2b695f0-09a5-42d4-8f45-cb2733a874a4",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "b084f942-a0c9-4d25-985c-d8773617f7bf",
+  "label" : "Clinical Trial Submission",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "b84a9e73-a2f8-4acc-b8dc-b72a3629b079",
+          "columns" : [ {
+            "UUID" : "4c0541ed-fced-4dff-a8aa-6cc6c060d606",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "b84a9e73-a2f8-4acc-b8dc-b72a3629b079",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:submission",
+          "id" : "990bbc90-abe7-4089-a9b0-fae4bb57b778",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4c0541ed-fced-4dff-a8aa-6cc6c060d606",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3afa1c43-4638-48d2-a806-09a02a5ade2a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Clinical Trial Submission"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1808c2b2-58d2-43a6-90b7-b9b7d6d59177",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "17f71cca-638d-4fee-8fc8-abfef8448735",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-clinical-trial-submission"
+}

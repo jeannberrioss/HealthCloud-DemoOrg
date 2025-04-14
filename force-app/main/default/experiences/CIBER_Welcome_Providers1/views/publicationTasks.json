@@ -1,0 +1,76 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a15b36b0-f41a-4049-b659-6e81cdcab1e5",
+  "label" : "publication-tasks",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "075da727-47a7-4702-bd4c-c42cbae22f99",
+          "columns" : [ {
+            "UUID" : "5d8fcebc-efc9-406d-8dd2-9e0e1b587c1d",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "075da727-47a7-4702-bd4c-c42cbae22f99",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "My Authorship",
+            "parentRecordId" : "0035w00003WNP7sAAH",
+            "relatedListName" : "Authors__r",
+            "showBreadCrumbs" : true,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : true,
+            "showRowNumbers" : true
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "458653ac-7e1f-4cda-9c36-03f7381f0610",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5d8fcebc-efc9-406d-8dd2-9e0e1b587c1d",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "469f13d8-192e-416d-b488-d10a4ca72360",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "publication-tasks"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4c696229-eece-4097-bc94-3bb97ceea09d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cd828d46-dc6d-4e22-b719-1fd4d9ad430a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-publication-tasks"
+}

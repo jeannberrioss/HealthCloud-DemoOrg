@@ -1,0 +1,71 @@
+{
+  "appPageId" : "d27beb5b-4627-4598-af80-fb86ae2372da",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d5f63886-751b-4a44-846a-9f564521c4a6",
+  "label" : "Care Team Chat",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "context" : "GLOBAL",
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:feedPublisher",
+      "id" : "bb7c5950-97dd-4600-8627-562be3569ac3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3f18bab-2edf-454a-96c9-10398ba5aeaa",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "canChangeSorting" : true,
+        "defaultFilter" : "",
+        "defaultSortOrderHomeFeed" : "Relevance",
+        "defaultSortOrderTopicsFeed" : "Relevance",
+        "feedDesign" : "DEFAULT",
+        "hasFeedSearch" : true,
+        "subjectId" : "",
+        "type" : "Home"
+      },
+      "componentName" : "forceCommunity:forceCommunityFeed",
+      "id" : "950fcf6e-8f32-4e0e-948e-7f7f1d6e5566",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "16e66b86-ad67-42bb-9202-6cf36c650197",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "27c57287-c700-4dcb-8f83-15369e3614de",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3d6298e8-39ca-4f63-82b7-b25a881bf0bf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Care Team Chat"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3e900066-e730-427c-8bb7-5b08b831b9c2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a2d417b0-5224-4fb2-9584-626e0fa20965",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-care-team-chat"
+}

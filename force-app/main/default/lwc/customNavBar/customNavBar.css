@@ -1,0 +1,66 @@
+.nav-container {
+    padding-left: 290px;
+    padding-right: 290px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%; 
+    min-width: 1300px; /* Prevents collapse below critical width */
+}
+
+.nav-border {
+    border: 2px dotted #888888;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden; /* Contains child elements */
+}
+
+.nav-flex {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+/* 🔑 Ensure items account for borders/padding in their width */
+.nav-item {
+    flex: 1;
+    padding: 10px 5px;
+    border-bottom: 4px solid lightgrey;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Critical for width accuracy */
+}
+
+.nav-item:first-child { /* this applies to 1st item */
+    padding: 30px 5px 2px;
+}
+
+.nav-item:nth-child(3) { /* this applies to 3rd item */
+    padding: 18px 5px 2px;
+}
+
+.nav-item:nth-child(4) { /* this applies to 4th item */
+    padding: 18px 5px 2px;
+}
+
+.nav-item:nth-child(n+5) { /* this applies to all items = 5th,6th,7th */
+    padding: 30px 5px 2px;
+}
+
+/* ----- Base Link Styles ------- */
+/* Explicitly define ALL states to properly define the state of the link */
+a.nav-link,
+a.nav-link:link,       /* Unvisited state */
+a.nav-link:visited,    /* Visited state */
+a.nav-link:focus {     /* Keyboard focus */
+    color: #717171;    /* Default Grey */
+    text-decoration: none !important;
+}
+
+/* ----- Hover States ------- */
+.nav-item:hover .nav-link {
+    color: #074982;    /* Blue on hover */
+    font-weight: bold;   /* Bold on hover */
+}
+
+.nav-item:hover {
+    border-bottom-color: #074982;
+}

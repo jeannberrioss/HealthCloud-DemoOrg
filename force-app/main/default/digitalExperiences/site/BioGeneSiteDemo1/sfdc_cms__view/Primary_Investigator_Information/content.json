@@ -1,0 +1,79 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Primary Investigator Information",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"60e73c78-69fd-44be-b6ad-6824445015f1\",\"columns\":[{\"UUID\":\"2972ce61-2233-4cb3-a90c-4985fe8fee97\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<!-- Outermost container to enforce alignment boundaries -->\n<div style=\"padding-left: 280px; padding-right: 280px;\">\n\n        <!-- Flex container for menu items -->\n        <div style=\"display: flex;\n                    width: 100%;\n                    text-align: center;\n                   \">\n\n            <!-- Menu Item 1: Welcome Page -->\n            <div style=\"flex: 1;\n                        padding: 18px 5px; /* Keep custom padding if needed */\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"#\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Welcome Page\n                </a>\n            </div>\n\n            <!-- Menu Item 2: Primary Investigator Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/primary-investigator-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Primary Investigator Information\n                </a>\n            </div>\n\n            <!-- Menu Item 3: Contact Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/contact-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Contact Information\n                </a>\n            </div>\n\n            <!-- Menu Item 4: Proposal Information -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/proposal-information\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Proposal Information\n                </a>\n            </div>\n\n            <!-- Menu Item 5: Study Design -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/study-design\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Study Design\n                </a>\n            </div>\n\n             <!-- Menu Item 6: Documentation -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/documentation\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Documentation\n                </a>\n            </div>\n\n             <!-- Menu Item 7: Privacy Notice -->\n            <div style=\"flex: 1;\n                        padding: 10px 5px;\n                        border-bottom: 4px solid lightgrey; /* Default Grey border */\n                       \">\n                <a href=\"https://ciberhealth.preview.salesforce-experience.com/BioGeneSiteDemo/privacy-notice\" style=\"text-decoration: none;\n                                   color: grey; /* Default Grey text */\n                                   font-size: 14px;\n                                   display: block;\n                                  \">\n                    Privacy Notice\n                </a>\n            </div>\n\n        </div><!-- End Flex container -->\n\n    </div><!-- End Dotted border container -->\n\n</div><!-- End Alignment container -->"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "4cd72fd9-1d0c-4f15-81fd-abb085eec5f3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div>\n    <!-- Heading Section -->\n    <!-- Container div retains padding to align HR and H1 correctly -->\n    <div style=\"padding-left: 300px; padding-right: 300px; margin-bottom: 0; /* Removed margin-bottom here */\">\n        <!-- Heading text -->\n        <h1 style=\"font-size: 25px; color: #074982; margin-bottom: 0; padding-top: 15px; padding-bottom: 1px;\">\n            Primary Investigator Information\n        </h1>\n        <!-- Dedicated HR for the line, placed INSIDE the padded container -->\n        <hr style=\"width: 100%; /* Span the width of the padded container */\n                   height: 2px; /* Set thickness */\n                   background-color: darkblue; /* Set color */\n                   border: none; /* Remove default 3D border */\n                   margin-top: 5px; /* Space between H1 and line */\n                   margin-bottom: 15px; /* Space between line and content below */\n                  \" />\n    </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "73057fc3-42ea-4bb2-bb1b-9c9832d71ee7",
+              "type" : "component"
+            } ],
+            "id" : "2972ce61-2233-4cb3-a90c-4985fe8fee97",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "60e73c78-69fd-44be-b6ad-6824445015f1",
+          "scopedBrandingSetId" : "WhitePage",
+          "type" : "component"
+        } ],
+        "id" : "cb85d2a4-6012-4b9c-ae55-6f0a987592bd",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Primary Investigator Information",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "363c3184-e9b3-437d-8217-220ac755672d",
+          "type" : "component"
+        } ],
+        "id" : "524fbebb-f151-4eb3-8bd9-5d326f7e3e16",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "f56a5751-8895-4af7-bc96-1f55904aeed7",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-primary-investigator-information"
+  },
+  "urlName" : "primary-investigator-information"
+}

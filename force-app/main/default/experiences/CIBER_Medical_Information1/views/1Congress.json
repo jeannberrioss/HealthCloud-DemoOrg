@@ -1,0 +1,322 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "dfd79c2d-651d-4bc4-a4bc-87c7220dfb2c",
+  "label" : "1Congress",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "323b63cb-d53d-44fa-a2ae-ad818ee603ff",
+          "columns" : [ {
+            "UUID" : "a153a9a9-d74a-4619-9eaf-c71dedf682b2",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "323b63cb-d53d-44fa-a2ae-ad818ee603ff",
+      "regions" : [ {
+        "id" : "a153a9a9-d74a-4619-9eaf-c71dedf682b2",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "aa8450cf-27c4-4f20-944e-10bc5219a253",
+          "columns" : [ {
+            "UUID" : "459b5f3b-09e5-4e3f-96c0-8a4fb08c7a01",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f6a03153-2329-41de-a96e-c74fec0e016e",
+            "columnKey" : "c1096",
+            "columnName" : "Column 2",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "810d6b58-3900-4330-ab6e-0613e16696fc",
+            "columnKey" : "26f4f",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1be4b06d-ed18-421c-bc94-b4157bf85349",
+            "columnKey" : "3c101",
+            "columnName" : "Column 4",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "6b28e354-0770-4a53-985f-c0077f3a3f4f",
+            "columnKey" : "8c6aa",
+            "columnName" : "Column 5",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "0a0f9131-7084-4b84-9653-b3d86fbe537d",
+            "columnKey" : "1fa82",
+            "columnName" : "Column 6",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "aa8450cf-27c4-4f20-944e-10bc5219a253",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "August 5-10, 2023 <p> Las Vegas, NV",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "American Academy of Neurology 2023 Annual Meeting",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "f55f8360-9aa8-4ae2-853f-0cf4163a8677",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "459b5f3b-09e5-4e3f-96c0-8a4fb08c7a01",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "September 10-14, 2023 <p> Washington, DC",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "18th Migraine Trust International Symposium 2022",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "1e268a7b-7690-42fc-9dca-74c248fc2ff1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f6a03153-2329-41de-a96e-c74fec0e016e",
+        "regionLabel" : "Column 2",
+        "regionName" : "c1096",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "July 5-10, 2024 <p> Online",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "Heart Failure Society of America Webinar",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "f3c9a254-dd85-449e-b9ed-31ffbd3b852f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "810d6b58-3900-4330-ab6e-0613e16696fc",
+        "regionLabel" : "Column 3",
+        "regionName" : "26f4f",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "January 17-22, 2024 <p> San Diego, CA",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "American Association of Cancer Research Annual Meeting",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "252c16b0-a18c-47d1-ae88-ef026472078a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1be4b06d-ed18-421c-bc94-b4157bf85349",
+        "regionLabel" : "Column 4",
+        "regionName" : "3c101",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "October 1-6, 2025 <p> Paris, France",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "American Society of Clinical Oncology Annual Meeting",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "abb4abed-a404-4775-be58-4966b280a9ea",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6b28e354-0770-4a53-985f-c0077f3a3f4f",
+        "regionLabel" : "Column 5",
+        "regionName" : "8c6aa",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "",
+            "buttonVariant" : "brand",
+            "description" : "December 17-20, 2023 <p> Portland, ME",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 250,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgb(29,42,58)",
+            "textPosition" : "overlay",
+            "title" : "National Hemophilia Foundation (NHF) Bleeding Disorders Conference",
+            "titleColor" : "#fff",
+            "titleSize" : "medium"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "409ad53e-fc0c-4402-99fc-b593eda4ff39",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0a0f9131-7084-4b84-9653-b3d86fbe537d",
+        "regionLabel" : "Column 6",
+        "regionName" : "1fa82",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "fea74b7a-cd69-4ded-ba53-71079a0fc866",
+          "columns" : [ {
+            "UUID" : "19d62f40-c060-47c0-96a5-bf78dd900e4a",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "fea74b7a-cd69-4ded-ba53-71079a0fc866",
+      "regions" : [ {
+        "id" : "19d62f40-c060-47c0-96a5-bf78dd900e4a",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3233dc2a-493c-42c4-938f-51bcd73dc76b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1Congress"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8e47f1d8-efb9-4ab1-9fab-4b9e807aa60d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f881360d-d95f-4291-95bd-bd1a34bc155e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-congress"
+}

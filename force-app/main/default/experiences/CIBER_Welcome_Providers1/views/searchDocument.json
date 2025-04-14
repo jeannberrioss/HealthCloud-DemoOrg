@@ -1,0 +1,237 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a5fefb66-800f-4595-a950-9f713ee34fb3",
+  "label" : "Search Document",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(93,189,205)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "0595fd6c-f448-4a59-8283-00be0f3fbbd4",
+          "columns" : [ {
+            "UUID" : "048c6923-cac5-47d9-9b5a-aa82207e4adb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "0595fd6c-f448-4a59-8283-00be0f3fbbd4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-form-element\">\n<label class=\"slds-form-element__label\" for=\"combobox-id-1\" id=\"combobox-label-id-3\">Product </label>\n<div class=\"slds-form-element__control\">\n<div class=\"slds-combobox_container slds-size_small\">\n<div class=\"slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click\">\n<div class=\"slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right\">\n<div tabindex=\"0\" class=\"slds-input_faux slds-combobox__input\" id=\"combobox-id-1-selected-value\">\n<span class=\"slds-truncate\" id=\"combobox-value-id-3\">Select a Product</span>\n</div>\n<span class=\"slds-icon_container slds-icon-utility-down slds-input__icon slds-input__icon_right\">\n</span>\n</div>\n<div id=\"listbox-id-1\" class=\"slds-dropdown slds-dropdown_length-5 slds-dropdown_fluid\" tabindex=\"0\">\n<ul class=\"slds-listbox slds-listbox_vertical\" >\n<li class=\"slds-listbox__item\">\n<div id=\"option7\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\" >\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option A\">Ciberpax</span>\n</span>\n</div>\n</li>\n<li class=\"slds-listbox__item\">\n<div id=\"option8\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\">\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option B\">Cibercillin</span>\n</span>\n</div>\n</li>\n<li class=\"slds-listbox__item\">\n<div id=\"option9\" class=\"slds-media slds-listbox__option slds-listbox__option_plain slds-media_small\">\n<span class=\"slds-media__figure slds-listbox__option-icon\"></span>\n<span class=\"slds-media__body\">\n<span class=\"slds-truncate\" title=\"Option ABCDEFGHIJKLMNOPQRSTUVWXYZ\">Ciberpax (injection)</span>\n</span>\n</div>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "41d6db3a-a9eb-4447-ab5d-3d477a730194",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-form-element\">\n<label class=\"slds-form-element__label\" for=\"text-input-id-2\">\n<abbr class=\"slds-required\" title=\"required\">* </abbr>Search</label>\n<div class=\"slds-form-element__control\">\n<input type=\"text\" id=\"text-input-id-2\" placeholder=\"Keywords\" required=\"\" class=\"slds-input\" />\n</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "c436edf0-5158-47bd-8cdb-dd060249cdc8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<center><button class=\"slds-button slds-button_brand\">Search Library</button></center>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "8681234a-4044-48a1-bdad-037a4efc293a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "048c6923-cac5-47d9-9b5a-aa82207e4adb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "367b9573-2ec8-47d2-995e-4f518c630708",
+          "columns" : [ {
+            "UUID" : "79c0c7bd-308b-4c06-9979-1b24409a5e38",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "367b9573-2ec8-47d2-995e-4f518c630708",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 22px;\">Ciberpax</strong><strong style=\"color: rgb(0, 0, 0); font-size: 28px; background-color: rgb(255, 255, 255);\">®&nbsp;</strong><strong style=\"color: rgb(0, 0, 0); font-size: 22px;\">(cinumab)</strong></p><p style=\"text-align: center;\"><a href=\"//www.google.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Safety Information</a></p><p style=\"text-align: center;\"><a href=\"//www.google.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Prescribing Information</a></p><p style=\"text-align: center;\"><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "8f1b1683-9a16-4721-a60c-c65272d267d8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<center><button class=\"slds-button slds-button_brand\">Download</button></center>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "cc689536-dbb4-4b44-81fa-3ef8e81b8682",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p>\n<p><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_13936_PM.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_13214_PM.1}\" style=\"width: 92px; height: 60.8984px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_13154_PM.1}\" style=\"width: 109.148px; height: 70.1641px;\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3a0c16cf-c309-4fd7-99c6-bc72ce9b4d0b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "79c0c7bd-308b-4c06-9979-1b24409a5e38",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(9,157,118,0)",
+        "backgroundOverlay" : "rgba(7, 108, 174, 0)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "726c15ca-c6d9-4fb6-b8cf-a2591222a402",
+          "columns" : [ {
+            "UUID" : "20a4b355-aaac-4905-b950-8607965815cb",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "472f4092-3c7d-4eab-b1ff-10c7f118c476",
+            "columnKey" : "04f26",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9dc1b29b-5e40-443d-9be1-dc9859d95189",
+            "columnKey" : "c7690",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "726c15ca-c6d9-4fb6-b8cf-a2591222a402",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><strong style=\"font-size: 16px;\">Contact </strong><span style=\"font-size: 16px;\">Medical Affairs at Ciber Spring Therapeutics</span></p><p><br></p><p><strong style=\"font-size: 16px;\">Phone:</strong><span style=\"font-size: 16px;\"> 1-888-033-3433</span></p><p><span style=\"font-size: 16px;\">Monday - Friday </span></p><p><span style=\"font-size: 16px;\">9 am - 6 pm EST&nbsp;&nbsp;</span></p><p><br></p><p><strong style=\"font-size: 16px;\">Email</strong><span style=\"font-size: 16px;\">: ciberMI@ciberspringtherapeutics.com</span></p><p><br></p><p><strong><span class=\"ql-cursor\">﻿</span></strong></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "66d09c19-d13b-4b70-bcc9-e25b0890d67d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "20a4b355-aaac-4905-b950-8607965815cb",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"font-size: 16px;\">Can't find something? </span></p><p><br></p><p><span style=\"font-size: 16px;\">Fill out a medical inquiry form and someone from medical information team will be in touch&nbsp;&nbsp;</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a0e023d9-2b52-4161-bb40-235b956432ee",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<center><button class=\"slds-button slds-button_brand\">Submit Form</button></center>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "dadd5258-fe98-4739-b5f7-9efb2c06ca12",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "472f4092-3c7d-4eab-b1ff-10c7f118c476",
+        "regionLabel" : "Column 2",
+        "regionName" : "04f26",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">To report </span><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">adverse events</strong><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">, you can contact the FDA's </span><a href=\"fda.gov\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 102, 204);\">MedWatch program</a><span style=\"font-size: 16px;\"> or call 1-800-223-2342 (M-F 9 am - 5 pm EST)</span></p><p><br></p><p><span style=\"font-size: 16px;\">To report </span><strong style=\"font-size: 16px;\">product complaints</strong><span style=\"font-size: 16px;\">, call 1-800-223-2300 (M-F 9 am - 5 pm EST)</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "160a0e43-dc2a-4873-9525-221707e1f933",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9dc1b29b-5e40-443d-9be1-dc9859d95189",
+        "regionLabel" : "Column 3",
+        "regionName" : "c7690",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b3f76d39-5d1d-4f46-8559-48bbfb5940cd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Search"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8a2c0293-03f6-4b55-92e9-1d385d913994",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a85beb4d-2fff-46ee-885d-075d4da089d0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-hcp"
+}

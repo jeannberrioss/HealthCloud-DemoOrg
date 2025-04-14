@@ -1,0 +1,118 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "7d67de06-08e4-4205-bb21-4cc9f3a5a2d3",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "19e51acc-5911-456c-81c6-d0edd5922f4a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerImageUrl" : "https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STmM&oid=00D5w000007M4Jf&lastMod=1691079102000",
+        "buttonLabel" : "Contact",
+        "buttonUrl" : "",
+        "buttonVariant" : "brand",
+        "description" : "",
+        "descriptionColor" : "#fff",
+        "descriptionSize" : "regular",
+        "height" : 300,
+        "textAlign" : "center",
+        "textHeight" : 150,
+        "textOverlayBackground" : "rgba(239,241,250)",
+        "textPosition" : "card",
+        "title" : "We are always here to help",
+        "titleColor" : "rgb(36,53,72)",
+        "titleSize" : "large"
+      },
+      "componentName" : "cloudx_cms:SS_uiImageBanner",
+      "id" : "dd9e1513-ba12-42e2-bb51-237f0c2ea709",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e9e55622-03f5-42f3-880d-08408d9edd82",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "actions" : [ {
+          "isPublic" : true,
+          "name" : "Access_Intake_Form"
+        } ],
+        "label" : "New Referral"
+      },
+      "componentName" : "forceCommunity:createRecordButton",
+      "id" : "95906d16-e2b6-4076-b654-ed13d5ded111",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : false,
+        "filterName" : "MyOpenCases",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "Case",
+        "showActionBar" : false,
+        "showChartsPanel" : false,
+        "showDisplay" : "grid",
+        "showFilterPanel" : false,
+        "showImageIcon" : false,
+        "showManualRefreshButton" : false,
+        "showObjectName" : false,
+        "showPinnedList" : false,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "4ce601c8-8da0-49ec-88a8-9ce366967183",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b639accb-51ae-4050-ba96-0f58ac2938d9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "healthcloud:careProgramConsentForms",
+      "id" : "dc50e99b-18ef-4a47-bf3e-f78e7036cc23",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f448874b-ab69-49b2-a357-c0918dba6628",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "9164f4c7-406f-45f7-9c52-5719d40a88cb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9933eeb2-a8d5-457f-8273-a5a11392fe67",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7a914552-4356-4b55-9713-7975850df375",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "9660a4c5-800a-44ba-9b03-b792b369ebea",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "2086d480-a775-4e91-abc8-5777753a20f9",
+  "appPageId" : "be50b2b1-8422-481a-8d17-73ad263fef95",
+  "configurationTags" : [ ],
+  "devName" : "Utilization_Management__c",
+  "id" : "2340cc81-456e-499c-96f2-a8fd93fa367c",
+  "label" : "Utilization Management",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-utilization-management",
+  "type" : "route",
+  "urlPrefix" : "utilization-management"
+}

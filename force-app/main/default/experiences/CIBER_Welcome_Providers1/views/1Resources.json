@@ -1,0 +1,250 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "04ee0c6f-1201-4199-9862-14bcaae29934",
+  "label" : "1Resources",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d10f37dd-e93a-4a60-8560-d282ca6ead37",
+          "columns" : [ {
+            "UUID" : "31ddae23-2825-4824-9924-f3476e6f3f91",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d10f37dd-e93a-4a60-8560-d282ca6ead37",
+      "regions" : [ {
+        "id" : "31ddae23-2825-4824-9924-f3476e6f3f91",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "22bd8d33-63cf-4687-99fa-7a5de4e9e068",
+          "columns" : [ {
+            "UUID" : "c554e43a-9e02-45f1-b288-0f34b168ef41",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "222808e7-29dd-4d72-99a2-7686e9e733d6",
+            "columnKey" : "2f3be",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "f3c222a8-7ea3-472a-890c-af9df26341d5",
+            "columnKey" : "4107e",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "79366c26-6544-4d4b-bcad-2f5210233eb1",
+            "columnKey" : "c7660",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 241
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "22bd8d33-63cf-4687-99fa-7a5de4e9e068",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STbO&oid=00D5w000007M4Jf&lastMod=1688579761000",
+            "buttonLabel" : "Clinical Trials",
+            "buttonUrl" : "https://www.clinicaltrials.gov/",
+            "buttonVariant" : "brand",
+            "description" : "",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 200,
+            "textAlign" : "center",
+            "textHeight" : 100,
+            "textOverlayBackground" : "rgba(0,0,0,0.4)",
+            "textPosition" : "overlay",
+            "title" : "Clinical Trials",
+            "titleColor" : "#fff",
+            "titleSize" : "large"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "23a1a196-9210-4de0-bf6a-96cd81aa7fb7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c554e43a-9e02-45f1-b288-0f34b168ef41",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STbY&oid=00D5w000007M4Jf&lastMod=1688579831000",
+            "buttonLabel" : "Pipeline",
+            "buttonUrl" : "https://www.ciberspring.com/",
+            "buttonVariant" : "brand",
+            "description" : "",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 200,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgba(0,0,0,0.4)",
+            "textPosition" : "overlay",
+            "title" : "Ciber Products",
+            "titleColor" : "#fff",
+            "titleSize" : "large"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "8caed5b4-0202-4f79-91cc-85d3f4aa595f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "222808e7-29dd-4d72-99a2-7686e9e733d6",
+        "regionLabel" : "Column 2",
+        "regionName" : "2f3be",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STbT&oid=00D5w000007M4Jf&lastMod=1688579789000",
+            "buttonLabel" : "Learn More",
+            "buttonUrl" : "https://www.ciberspring.com/",
+            "buttonVariant" : "brand",
+            "description" : "",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 200,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgba(0,0,0,0.4)",
+            "textPosition" : "overlay",
+            "title" : "Ciber Safety Data Sheets",
+            "titleColor" : "#fff",
+            "titleSize" : "large"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "09f74ddc-eecb-4d83-bac3-b164c1739478",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f3c222a8-7ea3-472a-890c-af9df26341d5",
+        "regionLabel" : "Column 3",
+        "regionName" : "4107e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerImageUrl" : "https://ciberhealth.file.force.com/servlet/servlet.ImageServer?id=0155w000003STbd&oid=00D5w000007M4Jf&lastMod=1688579867000",
+            "buttonLabel" : "Find Patient Assistance",
+            "buttonUrl" : "https://www.ciberspring.com/)",
+            "buttonVariant" : "brand",
+            "description" : "",
+            "descriptionColor" : "#fff",
+            "descriptionSize" : "regular",
+            "height" : 200,
+            "textAlign" : "center",
+            "textHeight" : 150,
+            "textOverlayBackground" : "rgba(0,0,0,0.4)",
+            "textPosition" : "overlay",
+            "title" : "Patient Programs",
+            "titleColor" : "#fff",
+            "titleSize" : "large"
+          },
+          "componentName" : "cloudx_cms:SS_uiImageBanner",
+          "id" : "2017128e-f341-489a-a483-a61f770bd249",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "79366c26-6544-4d4b-bcad-2f5210233eb1",
+        "regionLabel" : "Column 4",
+        "regionName" : "c7660",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3249266b-2851-419d-976c-88dcd7b62e39",
+          "columns" : [ {
+            "UUID" : "ad2e0490-c216-4164-a5af-e45dc36ee6f0",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3249266b-2851-419d-976c-88dcd7b62e39",
+      "regions" : [ {
+        "id" : "ad2e0490-c216-4164-a5af-e45dc36ee6f0",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "226a97f0-f606-4b40-8594-5cfa1318f75d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1Resources"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "badb2840-22cb-4fb6-9309-192ea312e4c1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff1cf8d5-2f8a-44f3-9f09-8e31d5670ffa",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-resources"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "53a06384-1ed7-4561-b036-43c1efd9b7fc",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "X1Search_Results__c",
+  "id" : "9db05085-36e1-4378-acf7-21e636b53c40",
+  "label" : "1Search Results",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-search-results",
+  "type" : "route",
+  "urlPrefix" : "search-results"
+}

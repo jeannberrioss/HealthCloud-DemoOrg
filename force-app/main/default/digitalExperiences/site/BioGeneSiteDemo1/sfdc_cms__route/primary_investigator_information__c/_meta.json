@@ -1,0 +1,5 @@
+{
+  "apiName" : "primary_investigator_information__c",
+  "type" : "sfdc_cms__route",
+  "path" : "routes"
+}

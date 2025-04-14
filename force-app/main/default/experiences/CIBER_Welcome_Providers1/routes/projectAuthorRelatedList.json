@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "41e7a30c-f2fd-4555-b76f-e1f1a804852b",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "Project_Author_Related_List__c",
+  "id" : "33aad939-ef95-4e0b-a56f-871c521ba536",
+  "label" : "Project Author Related List",
+  "objectApiName" : "Project_Author__c",
+  "routeType" : "relatedlist-a2p",
+  "type" : "route",
+  "urlPrefix" : "project-author"
+}

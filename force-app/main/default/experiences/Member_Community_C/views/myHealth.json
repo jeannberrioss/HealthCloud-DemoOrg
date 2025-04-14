@@ -1,0 +1,88 @@
+{
+  "appPageId" : "89c55df1-1331-4a04-b60e-29268f58386d",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "73b9d42f-5275-48ca-8a76-1beabe873097",
+  "label" : "My Health",
+  "regions" : [ {
+    "id" : "b0ab468b-ad55-42ca-9690-e6b98d4c1ef8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "picklistDefaultOptionText" : "Select a name and care plan...",
+        "showBirthDate" : true
+      },
+      "componentName" : "HealthCloudGA:HcCommunityCarePlanPicker",
+      "id" : "43a4e40f-d584-4279-a5f5-ad706e4ed9be",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "pageReloadSize" : 20,
+        "picklistDefaultOptionTextForTimeline" : "Select a care plan to view timeline events.",
+        "showFutureActivity" : true,
+        "showPastActivity" : true
+      },
+      "componentName" : "HealthCloudGA:HcCommunityTimeline",
+      "id" : "0fd97d4e-9b2f-4f5c-b90c-fcce87901f6b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb333545-b69d-4c47-b9de-f7bfc4f66e1e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "PatientFieldSet" : "HcPatientInfoFields",
+        "TeamMemberFieldSet" : "HcTeamMemberInfoFields",
+        "showLabels" : true
+      },
+      "componentName" : "HealthCloudGA:HcCommunityCareTeamList",
+      "id" : "0a49e897-ffa8-4c2b-8610-fde397f44569",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "showAll" : true,
+        "showLabels" : true,
+        "taskFieldSet" : "HcCarePlanTaskFields"
+      },
+      "componentName" : "HealthCloudGA:HcCommunityTaskList",
+      "id" : "0fb22d9e-2a4b-4b35-b339-b8525d853f19",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee4067da-ccaa-4d92-a36b-0bf760bdce70",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "185a29ae-e4c3-450f-9261-9c43c8b7b4dc",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Health"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0c09e5ab-ec58-4c80-8dd3-6648df08623c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f08982d5-9b70-4171-8175-4ee3495d834d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-health"
+}

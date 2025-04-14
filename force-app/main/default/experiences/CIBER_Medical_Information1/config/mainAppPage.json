@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "8c90b11a-7642-4a76-a692-21d59e6264e6",
+  "headMarkup" : "<script>\nwindow.onload = function () {\n  console.log(\"Load modal\");\n</script>",
+  "id" : "359386e5-50f9-464a-9665-de892318ba42",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

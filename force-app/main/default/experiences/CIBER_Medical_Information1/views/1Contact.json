@@ -1,0 +1,211 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "22d302a8-b968-46a3-9e9d-92e1ed3d8ebf",
+  "label" : "1Contact",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f9193ac9-2d73-4781-95f0-40ab7bf5c5cf",
+          "columns" : [ {
+            "UUID" : "470fe683-fad1-465a-bd0e-e12b9360dd12",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f9193ac9-2d73-4781-95f0-40ab7bf5c5cf",
+      "regions" : [ {
+        "id" : "470fe683-fad1-465a-bd0e-e12b9360dd12",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(29,42,58)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "48f95b98-579d-45ec-9a82-018f1c483ea5",
+          "columns" : [ {
+            "UUID" : "4ff162dc-22d9-4e10-bd51-75b609914a53",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "48f95b98-579d-45ec-9a82-018f1c483ea5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-size: 36px;\">Contact Ciber Therapeutics Medical Information Team</strong></h1><p> </p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "be2b36d3-2bec-4a97-87f4-69cfbdb9fee4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4ff162dc-22d9-4e10-bd51-75b609914a53",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0) url(/sfsites/c/file-asset/Blank_diagram_Page_1_6?v=1) center center repeat",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "95e98c0c-4d3d-4c45-b344-3875f28e7025",
+          "columns" : [ {
+            "UUID" : "4699aa77-afaa-4f38-a5ac-6049d4b978e9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "91f3f323-64ef-436b-a82f-6fec5bcbe133",
+            "columnKey" : "7c47f",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "a1981dc1-f0bc-40a2-9aec-81b9d9740751",
+            "columnKey" : "d5b96",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 400
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "95e98c0c-4d3d-4c45-b344-3875f28e7025",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Phone: </span></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">1-888-033-3433 </span></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Monday - Friday&nbsp;&nbsp;9 am - 6 pm EST&nbsp;&nbsp;</span></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">Email: </strong></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">ciberMI@ciberspringtherapeutics.com</span></h2><h1><br></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "02a25669-1d83-45c7-befe-24678a71cee6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4699aa77-afaa-4f38-a5ac-6049d4b978e9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2><br></h2><h2><br></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">To report </span><strong style=\"color: rgb(255, 255, 255);\">adverse events</strong><span style=\"color: rgb(255, 255, 255);\">, </span></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">you can contact the FDA's </span><a href=\"https:google.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(255, 255, 255);\">MedWatch </a><span style=\"color: rgb(255, 255, 255);\">program or </span></h2><h2 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">call 1-800-223-2342 (M-F 9 am - 5 pm EST)</span></h2><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "23126472-30f4-461b-9da0-7dbd8e084a8e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "91f3f323-64ef-436b-a82f-6fec5bcbe133",
+        "regionLabel" : "Column 2",
+        "regionName" : "7c47f",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><br></h2><h2 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">To report product complaints, </strong></h2><h2 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255);\">call 1-800-223-2300 (M-F 9 am - 5 pm EST)</strong></h2><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "737d7918-7f5f-4997-b1c7-442cc7c84a69",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a1981dc1-f0bc-40a2-9aec-81b9d9740751",
+        "regionLabel" : "Column 3",
+        "regionName" : "d5b96",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1435e290-9fd1-45ab-a037-4e44e1d6d7d8",
+          "columns" : [ {
+            "UUID" : "dd512b5e-0dae-476a-83af-c4d35e66d36b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1435e290-9fd1-45ab-a037-4e44e1d6d7d8",
+      "regions" : [ {
+        "id" : "dd512b5e-0dae-476a-83af-c4d35e66d36b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "40a7aa20-40a5-468f-9f6c-0eccbae72c37",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1Contact"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "dbb3a299-da65-46a4-af35-dd1e6ab8b820",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2697f256-2699-4600-b54c-801c5673f66a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-contact"
+}

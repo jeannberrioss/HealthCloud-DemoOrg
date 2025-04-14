@@ -1,0 +1,50 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f2734fee-e2f5-4041-aea4-96bb21e2eaf1",
+  "label" : "Project Author Detail",
+  "regions" : [ {
+    "id" : "dab5e5b5-a785-42e2-bee0-d5b5aafa31c7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "relatedListApiName" : "Project_Stage_Tasks__r",
+        "relatedListComponentOverride" : "NONE",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:responsiveRelatedListSingle",
+      "id" : "7ee1734d-e63c-4075-892b-b938b160781a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "99513b91-92c4-40fa-b834-8abbf897039a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0c3cdf55-fe8d-48e8-b7a2-160571f4df3b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1b0e0b81-6ef4-4dd9-8da6-13fae48ff290",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6865d606-7ad7-4a6e-b25f-0d241c3d6607",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a2p"
+}

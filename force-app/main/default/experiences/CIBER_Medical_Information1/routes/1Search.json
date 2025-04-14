@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "65836f96-0634-4a34-8141-909308ebc558",
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "configurationTags" : [ ],
+  "devName" : "hcp__c",
+  "id" : "b43f83fb-17e7-4663-a7c0-d482abf4546e",
+  "label" : "1Search",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-hcp",
+  "type" : "route",
+  "urlPrefix" : "search"
+}

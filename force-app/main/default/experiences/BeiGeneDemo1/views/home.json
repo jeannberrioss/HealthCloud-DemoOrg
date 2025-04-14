@@ -1,0 +1,72 @@
+{
+  "appPageId" : "60669e43-6935-48de-914a-19569d54b942",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "54f8362a-aa44-4aae-b8cb-bad7536e9a98",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "e4898f87-611c-4328-9190-d2dc01c6932e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "A place where you can easily find solutions and ask questions",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Welcome, Garland Chase!",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "f1d0be1a-51f3-46c7-a3e8-64e7cc3d92dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 102, 204); font-size: 12px;\"><u>____________________________________________________________________________________________</u></strong></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "cbb97991-f243-4054-a7ad-5c7e7fcddb87",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 48px;\">Let's get started!</span></p><ol><li><span style=\"font-size: 18px;\">Unfamiliar with Build Your Own? Click Take a Tour in the Help menu.</span></li><li><span style=\"font-size: 18px;\">Want to add more pages? Take a look at the Pages menu.</span></li><li><span style=\"font-size: 18px;\">Want more components on your page? Drag and drop components from the Components panel.</span></li><li><span style=\"font-size: 18px;\">Want your users to see your company logo? Head on over to the Theme panel.</span></li><li><span style=\"font-size: 18px;\">Refine the look of your site with a custom theme layout. See the Experience Cloud Developer Guide.</span></li></ol>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "d6041a15-7713-490b-a312-c48772489e09",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "77aea092-8600-4874-9e92-7160d13768d5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "68a87c17-803f-444b-b3ba-25988bdbfa11",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "51dff156-e3a4-45dc-a634-d0facbfbdb45",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70a338f5-6f31-43b5-b6cf-abb4c435c326",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

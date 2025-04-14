@@ -1,0 +1,21 @@
+<template>
+    <!-- Outer alignment container -->
+    <div class="nav-container">
+        <!-- Dotted border container -->
+        <div class="nav-border">
+            <!-- Flex container -->
+            <div class="nav-flex">
+                <template for:each={menuItems} for:item="item">
+                    <div key={item.id} class="nav-item">
+                        <a href="#"
+                           class="nav-link"
+                           data-url={item.url}
+                           onclick={handleNavigation}>
+                            {item.label}
+                        </a>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Primary Investigator Information",
+  "contentBody" : {
+    "activeViewId" : "Primary_Investigator_Information",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-primary-investigator-information",
+    "urlPrefix" : "primary-investigator-information"
+  },
+  "urlName" : "primary-investigator-information"
+}

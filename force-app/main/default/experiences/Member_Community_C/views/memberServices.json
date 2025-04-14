@@ -1,0 +1,97 @@
+{
+  "appPageId" : "89c55df1-1331-4a04-b60e-29268f58386d",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "4d6b1d5a-952e-43f9-a2dc-136d95b109bd",
+  "label" : "Member Services",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "If you have any questions or concerns about your claims or member experience, please submit the appropriate request below for our team to review.",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Member Services",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "2422a24f-83bb-4521-b878-6a8e93f02b00",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d5d30d45-61cf-4fd8-8b7d-53f2dba3ff31",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Grievance"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "a4d9bac5-338a-4b31-9f61-523973ac39f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "allowMultipleCareDiagnosis" : "",
+        "allowMultipleCareRequestDrug" : "",
+        "allowMultipleCareRequestItem" : "",
+        "careRequestType" : "Appeal"
+      },
+      "componentName" : "builder_industries_utilizationmanagement:createCareRequestCommunity",
+      "id" : "4a913f43-fbfb-4456-89da-f022fad81ff7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f5f97022-702f-448d-bcd8-70950140bab6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "945c3cd4-bf4c-42c0-ab5c-1062b8561349",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Member Services"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1eb3ef9e-7b5a-4e98-822e-2284b6abf63a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "68bc6d0b-5efe-4c60-a7f5-db4275941bc7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "filterName" : "00B3A00000AonfWUAR",
+        "layout" : "COMPACT",
+        "pageSize" : 25,
+        "scope" : "Case",
+        "showDisplay" : "showall"
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "74e90209-c30c-489e-a902-b430b7b98e07",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2bdb9328-4c1a-48b1-aac8-b79d34922808",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-member-services"
+}

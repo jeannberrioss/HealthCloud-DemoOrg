@@ -1,0 +1,165 @@
+{
+  "appPageId" : "359386e5-50f9-464a-9665-de892318ba42",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "53a06384-1ed7-4561-b036-43c1efd9b7fc",
+  "label" : "1Search Results",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "17f10bbf-fa3d-44af-b914-5c86800e310e",
+          "columns" : [ {
+            "UUID" : "b28c2492-7175-446a-9e7e-ce3e115c5c9f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "17f10bbf-fa3d-44af-b914-5c86800e310e",
+      "regions" : [ {
+        "id" : "b28c2492-7175-446a-9e7e-ce3e115c5c9f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(29,42,58)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2618684e-ad72-4ad8-85eb-226b67f453fb",
+          "columns" : [ {
+            "UUID" : "18a70473-9109-4d14-bb06-b95ec8e88c7e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2618684e-ad72-4ad8-85eb-226b67f453fb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:SearchCIBERMedicalInformation",
+          "id" : "1549c560-c283-419e-898b-fb228bff2724",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "18a70473-9109-4d14-bb06-b95ec8e88c7e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "3620e9a7-35ea-49be-ac6d-bda5e982fb2a",
+          "columns" : [ {
+            "UUID" : "0a6945d9-835a-428e-9b44-6f7905628182",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3620e9a7-35ea-49be-ac6d-bda5e982fb2a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 0, 0); font-size: 22px;\">Ciberpax</strong><strong style=\"color: rgb(0, 0, 0); font-size: 28px;\">®&nbsp;</strong><strong style=\"color: rgb(0, 0, 0); font-size: 22px;\">(cinumab)</strong></p>\n<p style=\"text-align: center;\"><a href=\"https://www.google.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; color: rgb(0, 102, 204);\">Safety Information</a></p>\n<p style=\"text-align: center;\"><a href=\"https://www.google.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; color: rgb(0, 102, 204);\">Prescribing Information</a></p>\n<p style=\"text-align: center;\"><br></p>\n<p><span style=\"font-size: 16px;\">Search Results</span><strong style=\"font-size: 16px;\"> 2</strong><span style=\"font-size: 16px;\"> Documents</span></p>\n<p><br></p>\n<p><span style=\"font-size: 16px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_11818_PM.1}\" style=\"width: 58.2578px; height: 54.7812px;\"></span><a href=\"https://ciberhealth.my.site.com/identify/s/search-document\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 18px; color: rgb(24, 24, 24);\"><strong>Ciberpax Tylenol interactions and comorbidities</strong></a></p>\n<p><span style=\"font-size: 16px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Screenshot_20230621_at_11818_PM.1}\" style=\"width: 58.2578px; height: 54.7812px;\"></span><strong style=\"font-size: 18px; color: rgb(24, 24, 24);\">Ciberpax (cinumab) in pregnant adolescents</strong>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "4a2d14ee-0dbc-4edd-9808-6e7edb26e028",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0a6945d9-835a-428e-9b44-6f7905628182",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "be79b60c-343e-4c5b-a440-742ee834a5d2",
+          "columns" : [ {
+            "UUID" : "1b751cda-f7bf-4e7b-af8c-246053cde515",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 32
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "be79b60c-343e-4c5b-a440-742ee834a5d2",
+      "regions" : [ {
+        "id" : "1b751cda-f7bf-4e7b-af8c-246053cde515",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d69ae14-6b2b-4607-b329-c2239950f992",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "1Search Results"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "29099a29-cd14-4888-89c8-6b0982fffda4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "909a47ef-3ade-411b-98b9-fb9342b87d88",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-search-results"
+}
