@@ -1,6 +1,7 @@
 .nav-container {
     padding-left: 280px;
     padding-right: 280px;
+    padding-top: 5px;
     box-sizing: border-box; /* Include padding in width calculation */
     width: 100%; 
     min-width: 1300px; /* Prevents collapse below critical width */
