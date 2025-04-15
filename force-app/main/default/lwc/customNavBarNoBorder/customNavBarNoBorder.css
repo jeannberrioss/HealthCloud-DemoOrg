@@ -7,11 +7,12 @@
 }
 
 .nav-border {
-    border: 2px dotted #888888;
+    /* Remove the border line for this LWC component */
+    border: none; /* or delete this line entirely */
     padding: 20px;
     box-sizing: border-box;
     width: 100%;
-    overflow: hidden; /* Contains child elements */
+    overflow: hidden;
 }
 
 .nav-flex {

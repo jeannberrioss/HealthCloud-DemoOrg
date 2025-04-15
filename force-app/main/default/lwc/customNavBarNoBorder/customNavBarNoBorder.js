@@ -1,7 +1,7 @@
 import { LightningElement } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 
-export default class CustomNavbar extends NavigationMixin(LightningElement) {
+export default class CustomNavbarNoBorder extends NavigationMixin(LightningElement) {
     menuItems = [
         { id: 1, label: 'Welcome Page', url: '/', isActive: false },
         { id: 2, label: 'Primary Investigator Information', url: 'primary-investigator-information', isActive: false },
