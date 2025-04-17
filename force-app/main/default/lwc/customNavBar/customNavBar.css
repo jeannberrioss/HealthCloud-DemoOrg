@@ -30,7 +30,7 @@
 }
 
 .nav-item:first-child { /* this applies to 1st item */
-    padding: 30px 5px 2px;
+    padding: 20px 5px 2px;
 }
 
 .nav-item:nth-child(3) { /* this applies to 3rd item */
@@ -42,7 +42,7 @@
 }
 
 .nav-item:nth-child(n+5) { /* this applies to all items = 5th,6th,7th */
-    padding: 30px 5px 2px;
+    padding: 20px 5px 2px;
 }
 
 /* ----- Base Link Styles ------- */
