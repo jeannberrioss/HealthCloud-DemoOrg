@@ -36,11 +36,11 @@
 }
 
 .nav-item:nth-child(3) { /* this applies to 3rd item */
-    padding: 26px 5px 2px;
+    padding: 30px 5px 2px;
 }
 
 .nav-item:nth-child(4) { /* this applies to 4th item */
-    padding: 26px 5px 2px;
+    padding: 30px 5px 2px;
 }
 
 .nav-item:nth-child(n+5) { /* this applies to all items = 5th,6th,7th */
